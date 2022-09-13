@@ -1,0 +1,40 @@
+* {
+    background-color: aliceblue;
+    padding: 0%;
+    margin: auto;
+    margin-top: auto;
+    padding-top: 0%;
+
+}
+
+@media (min-width: 700px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 700px) {
+    .logo {
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+@media (min-width: 700px) {
+    #nav-bar {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+
+    }
+}
+@media (min-width: 700px) {
+    .images {
+      display: flex;
+      justify-content: space-between;
+      flex: 1;
+
+  }
+}
